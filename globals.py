@@ -1,7 +1,7 @@
 # globals.py
 
 # Token du bot Telegram
-BOT_TOKEN = "TON_TELEGRAM_BOT_TOKEN"
+BOT_TOKEN = "7808685810:AAHEjjlQhmBMaeejBA-yquR__eL7v8Qu3VI"
 
 # Chemin vers le fichier JavaScript
 JS_FILE_PATH = "modules/xeontext17.js"
