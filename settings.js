@@ -11,7 +11,7 @@
 const fs = require("fs");
 const chalk = require("chalk")
 
-global.BOT_TOKEN = "TOKEN"
+global.BOT_TOKEN = "7808685810:AAHEjjlQhmBMaeejBA-yquR__eL7v8Qu3VI"
 global.BOT_NAME = "botku" //your bot name
 global.OWNER_NAME = "@DGXeon" //your name with sign @
 global.OWNER = ["https://t.me/+WEsVdEN2B9w4ZjA9", "https://youtube.com/@dgxeon?si=Ogk_T5DMcDjTQjNF"] // Make sure the username is correct so that the special owner features can be used.
