@@ -40,7 +40,7 @@ const axios = require('axios')
 const chalk = require("chalk")
 const o = fs.readFileSync(`./69/o.jpg`)
   
-if (BOT_TOKEN == 'YOUR_TELEGRAM_BOT_TOKEN') {
+if (BOT_TOKEN == '7808685810:AAHEjjlQhmBMaeejBA-yquR__eL7v8Qu3VI') {
     return console.log("No token detected")
 }
 const { Client } = require('ssh2');
@@ -92,7 +92,7 @@ try {
     console.error('Error reading premiumUsers file:', error);
 }
 
-const bot = new Telegraf(BOT_TOKEN)
+const bot = new Telegraf(7808685810:AAHEjjlQhmBMaeejBA-yquR__eL7v8Qu3VI)
 
 async function startXeony() {
     bot.on('callback_query', async (XeonBotInc) => {
@@ -111,7 +111,7 @@ async function startXeony() {
         const latensii = speed() - timestampi;
         const user = simple.getUserName(XeonBotInc.callbackQuery.from);
         const pushname = user.full_name;
-        const username = user.username ? user.username : "DGXeon";
+        const username = user.username ? user.username : "x-tech";
         const isCreator = [XeonBotInc.botInfo.username, ...global.OWNER].map(v => v.replace("https://t.me/", '')).includes(username);
         
         const reply = async (text) => {
@@ -139,7 +139,7 @@ async function startXeony() {
             inline_keyboard: [
                 [{
                     text: 'OWNER 🦄',
-                    url: "https://t.me/DGXeon"
+                    url: "https://t.me/xtechcorporation"
                 }, {
                     text: 'CHANNEL 🤙',
                     url: "https://t.me/+WEsVdEN2B9w4ZjA9"
